@@ -16,7 +16,7 @@ global.website = 'https://github.com/Maccoder3/MAC-MD' //wa.me/+25000000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/8ec95da555e8347af71bd.jpg'
 module.exports = {
   botname:   process.env.BOT_NAME === undefined ? 'MAC 𝐁𝐨𝐭' : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'mac' : process.env.OWNER_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? '༺█▬█ █ ▀█▀༻▓ 𝐀𝐑𝐈𝐄𝐋 ▒' : process.env.OWNER_NAME,
   sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
   author:  process.env.PACK_INFO.split(";")[0] === undefined ? 'mac' : process.env.PACK_INFO.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
